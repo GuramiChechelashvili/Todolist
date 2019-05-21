@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #eee;
+}
+
+nav a.active{
+  transition: all ease 0.5s;
+}
+
+.container{
+  margin-top: 20px;
+}
+
+
+
+.home .post{
+  overflow: hidden;
+  padding-left: 80px;
+}
+
+.addcategory{
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  background-color: rgba(6, 158, 204, 0.884);
+}
+
+.tasklist{
+  height: 50px;
+  background-color: aquamarine;
+  font-size: 15px;
+  text-align: center;
+  border:1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.subtask{
+  border-radius: 10px;
+  height: 45px;
+  width: 90px;
+  border:none;
+  background-color: rgb(160, 12, 12);
+}
+
+.withLineThrough {
+  text-decoration: line-through
+}
+
+.withoutLineThrough {
+  text-decoration: none
+}
+.completedTask{
+    width: 90px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+
